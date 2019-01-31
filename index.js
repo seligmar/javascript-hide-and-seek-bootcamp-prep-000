@@ -13,8 +13,8 @@ function deepestChild() {
   var node = document.getElementById('grand-node').querySelectorAll('div');
   for (let i = 0; i < node.length; i++) {
       var fizz = node[i].innerHTML;  
-      return fizz;  
-  }
+      
+  } return fizz; 
 }
 
 function increaseRankBy(n) {
